@@ -4,6 +4,7 @@
     "version": "0.0.0",
     "type": "module",
     "homepage": "https://chemokita13.github.io/age-counter/",
+    "base": "/age-counter/",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
