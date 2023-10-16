@@ -3,13 +3,11 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://chemokita13.github.io/age-counter/",
-    "base": "/age-counter/",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
         "preview": "vite preview",
-        "deploy": "vite build && gh-pages -d dist"
+        "deploy": "tsc && vite build && gh-pages -d dist"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.16",
