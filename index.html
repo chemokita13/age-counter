@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Age counter</title>
+      <script type="module" crossorigin src="/assets/index-4d7505f5.js"></script>
+      <link rel="stylesheet" href="/assets/index-e583f92b.css">
+    </head>
+    <body>
+        <main
+            id="app"
+            class="flex flex-col items-center justify-center w-screen h-screen text-center bg-black"
+        >
+            <h1 class="m-5 text-4xl font-extrabold text-white">
+                How your time burns...
+            </h1>
+            <input
+                type="date"
+                v-model="date"
+                id="date"
+                class="p-5 text-gray-300 bg-gray-800 rounded-lg"
+            />
+            <div
+                id="age"
+                class="w-1/2 p-5 m-3 text-3xl text-white border-2 border-white rounded-lg"
+            ></div>
+        </main>
+        
+    </body>
+</html>
